@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-page {
+
+}
+
+.about{
+
+}
+
+.intro{
+
+}
+
+.intro-paragraph{
+
+}
+
+.about-links{
+
+}
+
+.profile-pic{
+
+}
+
+.projects-page{
+
+
+}
+
+.project-container{
+  border: 5px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-image{
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-intro{
+
+}
+
+.skills-info{
+  height: 10%;
+  width: 10%;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  position: absolute;
+  left: 10%
+
+  
+}
+
+.skill-symbol{
+  height: 40%;
+  width: 40%;
+}
+
+.contact-info{
+
+}
+
+.contact-form{
+  /* background-color: #faf8f3; */
+  border: 0.5px solid rgb(2, 1, 1);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+  border-radius: .5rem;
+  text-align: center;
+}
