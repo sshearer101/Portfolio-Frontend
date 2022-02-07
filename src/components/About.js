@@ -17,7 +17,7 @@ export default function About() {
           
         </p>
       
-        <div className="profile-pic">
+        <div className="profile-pic-div">
           <img alt="shearer-img" src="/Images/Shearer.jpg" className="profile-pic"/>
         </div>
         <a

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: white;
+  background: #E8F8ED  ;
   color: black;
 
 }
@@ -18,10 +18,10 @@ code {
 
 .app-page {
 
+
 }
 
 .about{
-
 }
 
 .intro{
@@ -30,13 +30,15 @@ code {
 }
 
 .title{
+  font-family: 'Playfair Display', serif;
 
 }
 
 
 .intro-paragraph{
   font-style: italic;
-  
+  font-family: 'Playfair Display', serif;
+
 }
 
 .about-links{
@@ -44,14 +46,29 @@ code {
 }
 
 .profile-pic{
-  margin: auto;
+  margin: auto; 
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 80%;
-  width: 68%
-
+  font-size: 1.2rem;
+  border-radius: 1rem;
 }
+
+.profile-pic-div{
+  display: inline-block;
+  border: 1px solid rgb(24, 23, 23);
+  margin: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: .5rem; 
+  width: 100%;
+  height: 100%
+}
+
+
 
 .projects-page{
 
@@ -116,7 +133,7 @@ code {
 
 .navbar{
   display: flex;
-  background-color: white;
+  background-color: #225332;
   justify-content: space-between;
   align-items: center;
   border: 1px solid #030303;
@@ -125,6 +142,20 @@ code {
   color: black;
   cursor: pointer;
   border-radius: 1rem;
+}
+
+.navbar a,
+.navbar button {
+  font-size: 1.2rem;
+  display: inline-block;
+  background-color: #0a0a0a;
+  border: 1px solid rgb(24, 23, 23);
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: .5rem;
 }
 
 
