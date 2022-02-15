@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #E8F8ED  ;
   color: black;
+  margin: 1rem;
 
 }
 
@@ -22,6 +21,7 @@ code {
 }
 
 .about{
+  margin-top: 2rem;
 }
 
 .intro{
@@ -29,32 +29,49 @@ code {
 
 }
 
+
+.intro-div{
+  /* justify-content: center; */
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.links-div{
+  align-items: center;
+}
+
+
 .title{
   font-family: 'Playfair Display', serif;
+  padding: 3rem;
+  font-size: 48px;
+
+}
+
+.profile-pic{
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  width: 25%;
 
 }
 
 
 .intro-paragraph{
   font-style: italic;
-  font-family: 'Playfair Display', serif;
+  font-size: 28px;
 
 }
 
 .about-links{
+  font-size: 24px;
 
 }
-
-.profile-pic{
-  margin: auto; 
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 1.2rem;
-  border-radius: 1rem;
-}
-
-.profile-pic-div{
+/* .profile-pic-div{
   display: inline-block;
   border: 1px solid rgb(24, 23, 23);
   margin: auto; 
@@ -64,9 +81,16 @@ code {
   padding: 1rem;
   text-decoration: none;
   border-radius: .5rem; 
-  width: 100%;
-  height: 100%
-}
+  width: 90%;
+  height: 90%
+
+margin: auto;
+width: 60%;
+border: 5px solid black;
+padding: 10px;
+  
+} */
+
 
 
 
@@ -81,6 +105,9 @@ code {
   text-align: center;
   border-radius: .5rem;
   margin-bottom: 5px;
+  display: block;
+
+
 
 }
 
@@ -91,8 +118,14 @@ code {
   margin-right: auto;
 }
 
-.skills-intro{
 
+
+.project-image:hover{
+  transform: scale(1.1);
+}
+
+.skills-intro{
+ margin-bottom: 100px;
 }
 
 .skills-info{
@@ -102,9 +135,11 @@ code {
   justify-content: auto;
   align-items: center;
   position: absolute;
-  left: 10%
+  left: 10%;
+}
 
-  
+.skills-intro-two{
+  margin-top: 300px;
 }
 
 .skill-symbol{
@@ -128,7 +163,7 @@ code {
 }
 
 .home-page{
-  
+  margin-top: 2rem;
 }
 
 .navbar{
@@ -137,7 +172,7 @@ code {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #030303;
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 1rem;
   color: black;
   cursor: pointer;
@@ -157,7 +192,6 @@ code {
   cursor: pointer;
   border-radius: .5rem;
 }
-
 
 
 
