@@ -2,7 +2,7 @@ export const projects = [
 
     {
         title: "GradeFruit",
-        description: "Interactive Teaching Platform",
+        description: "An interactive teaching platform where students and teachers can track data from classes to grades to assignments.",
         demo: "https://www.youtube.com/watch?v=V9sTH_lFv2M&t=1s",
         github: "https://github.com/sshearer101/GradeFruit-Frontend",
         id: 1,
@@ -12,7 +12,7 @@ export const projects = [
 
     {
         title: "EMarker",
-        description: "Student Tracking Platform",
+        description: "A student tracking platform that allows for teachers to keep track of their students and schedules.",
         demo: "https://www.youtube.com/watch?v=wWs0kQe_iBc&t=2s",
         github: "https://github.com/sshearer101/ERoster",
         id: 2,
