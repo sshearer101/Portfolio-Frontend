@@ -196,7 +196,31 @@ padding: 10px;
   padding: 0 1rem 1rem;
   border-radius: .5rem;
   text-align: center;
+  background-color: #225332;
+  color: white;
 }
+
+.contact-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+
+}
+
+.contact-message{
+font-style: italic;
+}
+
+.input-div{
+
+}
+
+.submit-button{
+  display: block;
+  margin: 0 auto;
+}
+
 
 .home-page{
   margin-top: 2rem;

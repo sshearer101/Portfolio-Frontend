@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import ButtonMailto from './ButtonMailto'
+
 
 export default function Contact() {
 const [data, setData] = useState([])
@@ -28,7 +30,8 @@ const [data, setData] = useState([])
     <div>
       <div className="contact-info">
         <h2>EMAIL</h2>
-        <a>sshearer101@gmail.com</a>
+        <ButtonMailto label="Write me an E-Mail" mailto="sshearer101@gmail.com" />
+        {/* <a href="sshearer101@gmail.com">sshearer101@gmail.com</a> */}
         <h2>PHONE</h2>
         <p>919-260-1701</p>
       </div>
@@ -37,13 +40,14 @@ const [data, setData] = useState([])
       className="contact-form"
       onSubmit={handleSubmit}
       >
-        <h2>Contact Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-          suscipit officia aspernatur veritatis. Asperiores, aliquid?
+        <h2 className='contact-title'>Contact Me</h2>
+        <p className='contact-message'>
+          Please provide the contact information below, and I will get back to you in a timely manner.
+          <br/> Thank you!
         </p>
-        <div>
+        <div className='input-div'>
           <label htmlFor="name">Name</label>
+          <br/>
           <input 
             type="text" 
             id="name" 
@@ -51,8 +55,9 @@ const [data, setData] = useState([])
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div>
+        <div className='input-div'>
           <label htmlFor="email">Email</label>
+          <br/>
           <input 
             type="email" 
             id="email" 
@@ -60,15 +65,16 @@ const [data, setData] = useState([])
             onChange={(e) => setEmail(e.target.value)}
            />
         </div>
-        <div>
+        <div className='input-div'>
           <label htmlFor="message">Message</label>
+          <br/>
           <textarea 
             id="message" 
             name="message" 
             onChange={(e) => setMessage(e.target.value)}
             />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className='submit-button'>Submit</button>
       </form>
     </div>
   )

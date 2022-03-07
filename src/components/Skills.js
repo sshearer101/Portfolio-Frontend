@@ -27,6 +27,8 @@ export default function Skills() {
       <li> Microsoft PowerPoint</li>
       <li> Microsoft Excel</li>
       <li> Google Spreadsheets</li>
+      <li> Github</li>
+
     </ul>
     </div>   
     </div>
