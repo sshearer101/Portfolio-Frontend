@@ -1,40 +1,50 @@
 import React, { useState } from 'react'
-import ButtonMailto from './ButtonMailto'
+import emailjs from '@emailjs/browser';
+
+
 
 
 export default function Contact() {
-const [data, setData] = useState([])
   const [name, setName] = useState('')
+  const [subject, setSubject] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
   function handleSubmit(e) {
     e.preventDefault()
     e.target.reset()
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: `${name}`,
-        email: `${email}`,
-        message: `${message}`,
-      }),
-    })
-      .then((r) => r.json())
-      .then((data) => {
-        setData(data)
-      })
+
+    if(name === ""){
+      alert("Don't forget your name!")
+  } else if(subject === ""){
+      alert("Ooops you need to add a subject.")
+  } else if (email === ""){
+      alert("Add your email so we can be in touch.")
+  } else if (message === ""){
+      alert("don't forget to write a message!")
   }
+  
+ else {
+  emailjs.sendForm('service_e8wg1ho', 'template_qrrij1w', e.target, 'RdpFbdsFwvYviV4Iu')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+   
+  }
+  setName('')
+  setSubject('')
+  setEmail('')
+  setMessage('')
+
+  }
+
+
 
   return (
     <div>
-      <div className="contact-info">
-        <h2>EMAIL</h2>
-        <ButtonMailto label="Write me an E-Mail" mailto="sshearer101@gmail.com" />
-        {/* <a href="sshearer101@gmail.com">sshearer101@gmail.com</a> */}
-        <h2>PHONE</h2>
-        <p>919-260-1701</p>
-      </div>
+   
       <form 
       name="contact"
       className="contact-form"
@@ -46,35 +56,53 @@ const [data, setData] = useState([])
           <br/> Thank you!
         </p>
         <div className='input-div'>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name"></label>
           <br/>
           <input 
+            className='input-text'
             type="text" 
             id="name" 
             name="name" 
+            placeholder='Name'
             onChange={(e) => setName(e.target.value)}
           />
-        </div>
-        <div className='input-div'>
-          <label htmlFor="email">Email</label>
+        {/* </div>
+        <div className='input-div'> */}
+          <label htmlFor="email"></label>
           <br/>
           <input 
-            type="email" 
+            className='input-text'
+            type="text" 
             id="email" 
             name="email" 
+            placeholder='Email'
             onChange={(e) => setEmail(e.target.value)}
            />
         </div>
         <div className='input-div'>
-          <label htmlFor="message">Message</label>
-          <br/>
+          <label htmlFor="subject"></label>
+          {/* <br/> */}
+          <input 
+            className='input-subject'
+            type="text" 
+            id="subject" 
+            name="subject" 
+            placeholder='Subject'
+            onChange={(e) => setSubject(e.target.value)}
+          />
+        </div>
+        <div className='input-div'>
+          <label htmlFor="message"></label>
+          {/* <br/> */}
           <textarea 
+            className='input-message'
             id="message" 
             name="message" 
+            placeholder='Message'
             onChange={(e) => setMessage(e.target.value)}
             />
         </div>
-        <button type="submit" className='submit-button'>Submit</button>
+        <button type="submit" className='submit-button'>Send Message!</button>
       </form>
     </div>
   )

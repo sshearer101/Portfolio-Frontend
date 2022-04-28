@@ -204,6 +204,8 @@ padding: 10px;
   text-align: center;
   background-color: #225332;
   color: white;
+  margin-top: 100px;
+  float: left;
 }
 
 .contact-title{
@@ -219,12 +221,45 @@ font-style: italic;
 }
 
 .input-div{
+  display: inline-flex;
+  width: 100%;
+}
+
+.input-text{
+  float: left; 
+  width: 100%;
+  margin: 10px;
+  padding: 10px
+
+}
+
+.input-subject{
+  float: left;
+  width: 100%;
+  margin: 10px;
+  padding: 10px
+}
+
+.input-message{
+  float: left;
+  width: 100%;  
+  margin: 10px;
+  padding: 10px;
+  height: 60px;
 
 }
 
 .submit-button{
-  display: block;
+  font-size: 1rem;
+  float: right;
+  background-color: #0a0a0a;
+  border: 1px solid rgb(24, 23, 23);
   margin: 0 auto;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: .5rem;
 }
 
 

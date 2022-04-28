@@ -8,7 +8,7 @@ export default function Skills() {
     <div>
       <div className="skills-intro">
         <h1>Skills &amp; Technologies </h1>
-        <p>
+        <p className=''>
           Since beginning the pursuit of my tech career in July of 2021, I have worked with both frontend and backend languages. 
           <br></br>
           <br></br>
