@@ -267,20 +267,19 @@ font-style: italic;
   margin-top: 2rem;
 }
 
-.navbar{
+/* .navbar{
   display: flex;
   background-color: #225332;
   justify-content: space-between;
   align-items: center;
   border: 1px solid #030303;
-  /* margin: 1rem; */
   padding: 1rem;
   color: black;
   cursor: pointer;
   border-radius: 1rem;
-}
+} */
 
-.navbar a,
+/* .navbar a,
 .navbar button {
   font-size: 1.2rem;
   display: inline-block;
@@ -292,7 +291,7 @@ font-style: italic;
   color: rgb(255, 255, 255);
   cursor: pointer;
   border-radius: .5rem;
-}
+} */
 
 
 /* main page to float in */
@@ -416,4 +415,54 @@ h1:hover {
   cursor: pointer;
   animation-name: bounce;
   -moz-animation-name: bounce;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul.menu {
+  display: inline-block;
+  list-style-type: none;
+  float: left;
+}
+li.menu_list {
+  height: 85px;
+  width: 85px;
+  position: relative;
+}
+li.menu_list .front,
+a.side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86px;
+  width: 100%;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s ease-out;
+  cursor: pointer;
+}
+li.menu_list .front {
+  background-color: #34465d;
+  color: #FFFC00;
+  transform-origin: 0 0;
+}
+a.side {
+  background-color: #FFFC00;
+  color: #34465d;
+  transform-origin: 0 0 85px;
+  transform: rotateY(-90deg);
+}
+li.menu_list:hover a.side {
+  transform: rotateY(0deg);
+}
+li.menu_list:hover .front {
+  transform: rotateY(90deg);
 }
