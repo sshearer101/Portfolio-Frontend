@@ -10,7 +10,7 @@ export default function Home() {
             Full Stack Software Developer
           </div>
         </div>
-      </div>{' '}
+      </div>
     </div>
   )
 }

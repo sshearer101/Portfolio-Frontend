@@ -6,7 +6,14 @@ body {
   background: #E8F8ED  ;
   color: black;
   margin: 1rem;
+  /* height: 100%;
+  width: 100%; */
 
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  /* width: 100% */
 }
 
 code {
@@ -22,7 +29,8 @@ code {
 }
 
 .about{
-  margin-top: 2rem;
+  margin-left: 120px;
+  padding: 30px;
 }
 
 .intro{
@@ -264,7 +272,8 @@ font-style: italic;
 
 
 .home-page{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  height: 100%
 }
 
 /* .navbar{
@@ -298,10 +307,13 @@ font-style: italic;
 
 .cater3-movingBG {
     height: 100%;
+    width: 100%;
     background-image: url("Images/books.jpg");
     background-size: 125%;
     background-repeat: repeat-x;
     animation: animatedBackground 15s linear alternate infinite;
+    position: absolute;
+    margin-left: 120px; 
 }
 
 @keyframes animatedBackground {
@@ -364,7 +376,7 @@ font-style: italic;
     background-color:rgba(255,255,255,0.9);
     display:inline-block;
     color:#000;
-    box-size:border-box;
+    box-size: border-box;
     max-width:63%;
     max-width: 22em;
     font-size: 32px;
@@ -427,18 +439,28 @@ ul.menu {
   display: inline-block;
   list-style-type: none;
   float: left;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
 }
 li.menu_list {
-  height: 85px;
-  width: 85px;
+  height: 20%;
+  width: 120px;
   position: relative;
 }
+
+span.front.fas.fa-home{
+  width: 100%
+}
+
+
 li.menu_list .front,
 a.side {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 86px;
+  height: 100%;
   width: 100%;
   padding: 30px;
   position: absolute;
