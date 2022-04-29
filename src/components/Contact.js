@@ -43,7 +43,7 @@ export default function Contact() {
 
 
   return (
-    <div>
+    <div className="contact-page">
    
       <form 
       name="contact"

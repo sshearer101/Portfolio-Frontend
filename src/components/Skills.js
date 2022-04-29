@@ -5,7 +5,7 @@ export default function Skills() {
 
 
   return (
-    <div>
+    <div className='skills-page'>
       <div className="skills-intro">
         <h1>Skills &amp; Technologies </h1>
         <p className=''>
