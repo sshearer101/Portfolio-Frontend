@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="project-page">
       <div >
-        <h1 className="project-header">Apps I've Built</h1>
+        <h1 className="title">Apps I've Built</h1>
       </div>
       <div>
         {projects.map((project) => (
