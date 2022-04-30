@@ -6,9 +6,10 @@ export default function Skills() {
 
   return (
     <div className='skills-page'>
-      <div className="skills-intro">
-        <h1>Skills &amp; Technologies </h1>
-        <p className=''>
+      <div>
+        <h1 className='title'>Skills &amp; Technologies </h1>
+        <img></img>
+        <p className='skills-intro'>
           Since beginning the pursuit of my tech career in July of 2021, I have worked with both frontend and backend languages. 
           <br></br>
           <br></br>
@@ -23,8 +24,7 @@ export default function Skills() {
         
 
         </p>
-       
-
+      
       </div>
       <div className="skills-info">
         {skills.map((skill) => (
