@@ -233,8 +233,7 @@ align-items: center;
   border: 0.5px solid rgb(2, 1, 1);
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 50%;
+  width: 40%;
   margin: 0 auto;
   padding: 0 1rem 1rem;
   border-radius: .5rem;
@@ -265,7 +264,8 @@ font-style: italic;
   float: left; 
   width: 100%;
   margin: 10px;
-  padding: 10px
+  padding: 10px;
+  height: 50px;
 
 }
 
@@ -273,7 +273,8 @@ font-style: italic;
   float: left;
   width: 100%;
   margin: 10px;
-  padding: 10px
+  padding: 10px;
+  height: 50px;
 }
 
 .input-message{
@@ -281,7 +282,7 @@ font-style: italic;
   width: 100%;  
   margin: 10px;
   padding: 10px;
-  height: 60px;
+  height: 100px;
 
 }
 

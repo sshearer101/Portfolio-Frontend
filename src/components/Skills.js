@@ -20,7 +20,7 @@ export default function Skills() {
           <br></br>
           <br></br>
           {/* Visit my LinkedIn profile for more details to contact me! */}
-          Visit my <a href="https://www.linkedin.com/in/sam-shearer-101/"> LinkedIn</a> for more details to contact me
+          Visit my <a href="https://www.linkedin.com/in/sam-shearer-101/"> LinkedIn</a> for more details to contact me.
         
 
         </p>
