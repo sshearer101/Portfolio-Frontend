@@ -1,5 +1,4 @@
 import React from 'react'
-import ParticlesBg from 'particles-bg'
 
 
 export default function About() {
@@ -51,19 +50,8 @@ export default function About() {
           I have a passion for teaching and learning as well as sports, games, and reading. I value clear communication, hard work, and collaboration in the workplace.
         </p>
       </div>
-      <ParticlesBg num={200} color="#9597ad" type="random" bg={true} pointer-events={true}/>
     </div>
   )
 }
 
-//color
-//ball
-//lines
-//thick
-//circle
-//cobweb
-//polygon
-//square
-//tadpole
-//fountain
-//random
+

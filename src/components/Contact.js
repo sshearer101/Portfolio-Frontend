@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
+import ParticlesBg from 'particles-bg'
+
 
 
 
@@ -104,6 +106,7 @@ export default function Contact() {
         </div>
         <button type="submit" className='submit-button'>Send Message!</button>
       </form>
+      <ParticlesBg num={200} type="cobweb" bg={true} pointer-events={true}/>
     </div>
   )
 }
