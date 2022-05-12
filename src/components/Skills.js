@@ -45,6 +45,20 @@ export default function Skills() {
 
     </ul>
     </div>    */}
+
     </div>
   )
 }
+
+
+//color
+//ball
+//lines
+//thick
+//circle
+//cobweb
+//polygon
+//square
+//tadpole
+//fountain
+//random
