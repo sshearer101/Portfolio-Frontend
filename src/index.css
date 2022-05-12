@@ -73,6 +73,17 @@ code {
 
 }
 
+.other-pic{
+  float:right;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
 
 .intro-paragraph{
   font-style: italic;

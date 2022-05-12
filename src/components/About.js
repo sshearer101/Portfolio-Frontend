@@ -36,7 +36,7 @@ export default function About() {
           </div>
           </h1>
         </div>
-
+        <div className="intro-div">
         <p className="intro-paragraph">
           I am a certfied fullstack developer through Flatiron's Software
           Engineering program. I have experience using frontend languages like
@@ -49,6 +49,12 @@ export default function About() {
           <br />
           I have a passion for teaching and learning as well as sports, games, and reading. I value clear communication, hard work, and collaboration in the workplace.
         </p>
+        <img
+            alt="shearer-img"
+            src="/Images/Shearer.jpg"
+            className="other-pic"
+          />
+        </div>
       </div>
     </div>
   )
