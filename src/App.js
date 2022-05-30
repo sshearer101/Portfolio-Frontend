@@ -9,11 +9,11 @@ import Home from './components/Home'
 
 function App() {
   return (
-    <Router>
+    // <Router>
 
       <div className="app-page">
-      <Navbar />
-
+      {/* <Navbar /> */}
+dsfdfsdfsdfds
         {/* <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes> */}
       </div>
-    </Router>
+    /* </Router> */
   )
 }
 
