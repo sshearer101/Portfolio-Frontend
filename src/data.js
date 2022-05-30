@@ -1,3 +1,7 @@
+import eroster from "./Images/ERoster-Logo.png";
+import gradefruit from "./Images/GradeFruit-Logo.png"
+
+
 export const projects = [
 
     {
@@ -6,7 +10,7 @@ export const projects = [
         demo: "https://www.youtube.com/watch?v=V9sTH_lFv2M&t=1s",
         github: "https://github.com/sshearer101/GradeFruit-Frontend",
         id: 1,
-        image: "/Images/GradeFruit-Logo.png"
+        image: gradefruit
     
     },
 
@@ -16,7 +20,7 @@ export const projects = [
         demo: "https://www.youtube.com/watch?v=wWs0kQe_iBc&t=2s",
         github: "https://github.com/sshearer101/ERoster",
         id: 2,
-        image: "/Images/ERoster-Logo.png"
+        image: eroster
     
     }
 ]

@@ -56,7 +56,7 @@ code {
 
 .title{
   font-family: 'Playfair Display', serif;
-  margin-top: -50px;
+  margin-top: -30px;
   padding: 3rem;
   font-size: 48px;
 
@@ -78,7 +78,7 @@ code {
   text-align: center;
   font-size: 1.2rem;
   border-radius: 1rem;
-  width: 50%;
+  width: 30%;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 15px;
@@ -93,7 +93,6 @@ code {
 
 .about-links{
   font-size: 24px;
-
 }
 /* .profile-pic-div{
   display: inline-block;

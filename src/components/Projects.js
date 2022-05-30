@@ -1,6 +1,7 @@
 import React from 'react'
 import { projects } from '../data'
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from 'particles-bg';
+
 
 export default function Projects() {
   return (

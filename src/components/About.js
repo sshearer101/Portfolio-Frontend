@@ -1,5 +1,6 @@
 import React from 'react'
-
+import shearer1 from "../Images/Shearer1.jpg";
+import shearer2 from "../Images/Shearer2.jpg";
 
 export default function About() {
   return (
@@ -7,13 +8,14 @@ export default function About() {
       <div className="intro">
         <div className="intro-div">
           <img
-            alt="shearer-img"
-            src="/Images/Shearer.jpg"
+            alt="shearer1-img"
+            src={shearer1}
             className="profile-pic"
           />
           <h1 className="title">
             Hi, I'm Sam
             <br />I am a Full-Stack Software Engineer
+          </h1>
             <div className="links-div">
             <a
               href="https://www.linkedin.com/in/sam-shearer-101/"
@@ -34,7 +36,7 @@ export default function About() {
             />
             </a>
           </div>
-          </h1>
+        
         </div>
         <div className="intro-div">
         <p className="intro-paragraph">
@@ -50,8 +52,8 @@ export default function About() {
           I have a passion for teaching and learning as well as sports, games, and reading. I value clear communication, hard work, and collaboration in the workplace.
         </p>
         <img
-            alt="shearer-img"
-            src="/Images/Shearer.jpg"
+            alt="shearer2-img"
+            src={shearer2}
             className="other-pic"
           />
         </div>
