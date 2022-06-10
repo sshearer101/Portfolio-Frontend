@@ -2,7 +2,7 @@
   "name": "portfolio-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sshearer101/github.com/Portfolio-Frontend",
+  "homepage": "https://sshearer101/github.io/Portfolio-Frontend",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "@testing-library/jest-dom": "^5.11.4",
