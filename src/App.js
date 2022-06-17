@@ -13,7 +13,6 @@ function App() {
 
       <div className="app-page">
       <Navbar />
-dsfdfsdfsdfds
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
