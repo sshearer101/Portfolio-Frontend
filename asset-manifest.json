@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/github.io/Portfolio-Frontend/static/css/main.11b76bae.chunk.css",
-    "main.js": "/github.io/Portfolio-Frontend/static/js/main.c7774d06.chunk.js",
-    "main.js.map": "/github.io/Portfolio-Frontend/static/js/main.c7774d06.chunk.js.map",
-    "runtime-main.js": "/github.io/Portfolio-Frontend/static/js/runtime-main.f34c8169.js",
-    "runtime-main.js.map": "/github.io/Portfolio-Frontend/static/js/runtime-main.f34c8169.js.map",
-    "static/js/2.e7b1e8e9.chunk.js": "/github.io/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js",
-    "static/js/2.e7b1e8e9.chunk.js.map": "/github.io/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js.map",
-    "static/js/3.a7cf2beb.chunk.js": "/github.io/Portfolio-Frontend/static/js/3.a7cf2beb.chunk.js",
-    "static/js/3.a7cf2beb.chunk.js.map": "/github.io/Portfolio-Frontend/static/js/3.a7cf2beb.chunk.js.map",
-    "index.html": "/github.io/Portfolio-Frontend/index.html",
-    "static/css/main.11b76bae.chunk.css.map": "/github.io/Portfolio-Frontend/static/css/main.11b76bae.chunk.css.map",
-    "static/js/2.e7b1e8e9.chunk.js.LICENSE.txt": "/github.io/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js.LICENSE.txt",
-    "static/media/ERoster-Logo.4f93dad0.png": "/github.io/Portfolio-Frontend/static/media/ERoster-Logo.4f93dad0.png",
-    "static/media/GradeFruit-Logo.a67f5345.png": "/github.io/Portfolio-Frontend/static/media/GradeFruit-Logo.a67f5345.png",
-    "static/media/Shearer1.d616124b.jpg": "/github.io/Portfolio-Frontend/static/media/Shearer1.d616124b.jpg",
-    "static/media/Shearer2.6930f7d5.jpg": "/github.io/Portfolio-Frontend/static/media/Shearer2.6930f7d5.jpg",
-    "static/media/index.css": "/github.io/Portfolio-Frontend/static/media/books.22616d46.jpg"
+    "main.css": "/Portfolio-Frontend/static/css/main.598bb75b.chunk.css",
+    "main.js": "/Portfolio-Frontend/static/js/main.c7774d06.chunk.js",
+    "main.js.map": "/Portfolio-Frontend/static/js/main.c7774d06.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Frontend/static/js/runtime-main.4b7584e0.js",
+    "runtime-main.js.map": "/Portfolio-Frontend/static/js/runtime-main.4b7584e0.js.map",
+    "static/js/2.e7b1e8e9.chunk.js": "/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js",
+    "static/js/2.e7b1e8e9.chunk.js.map": "/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js.map",
+    "static/js/3.a7cf2beb.chunk.js": "/Portfolio-Frontend/static/js/3.a7cf2beb.chunk.js",
+    "static/js/3.a7cf2beb.chunk.js.map": "/Portfolio-Frontend/static/js/3.a7cf2beb.chunk.js.map",
+    "index.html": "/Portfolio-Frontend/index.html",
+    "static/css/main.598bb75b.chunk.css.map": "/Portfolio-Frontend/static/css/main.598bb75b.chunk.css.map",
+    "static/js/2.e7b1e8e9.chunk.js.LICENSE.txt": "/Portfolio-Frontend/static/js/2.e7b1e8e9.chunk.js.LICENSE.txt",
+    "static/media/ERoster-Logo.4f93dad0.png": "/Portfolio-Frontend/static/media/ERoster-Logo.4f93dad0.png",
+    "static/media/GradeFruit-Logo.a67f5345.png": "/Portfolio-Frontend/static/media/GradeFruit-Logo.a67f5345.png",
+    "static/media/Shearer1.d616124b.jpg": "/Portfolio-Frontend/static/media/Shearer1.d616124b.jpg",
+    "static/media/Shearer2.6930f7d5.jpg": "/Portfolio-Frontend/static/media/Shearer2.6930f7d5.jpg",
+    "static/media/index.css": "/Portfolio-Frontend/static/media/books.22616d46.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f34c8169.js",
+    "static/js/runtime-main.4b7584e0.js",
     "static/js/2.e7b1e8e9.chunk.js",
-    "static/css/main.11b76bae.chunk.css",
+    "static/css/main.598bb75b.chunk.css",
     "static/js/main.c7774d06.chunk.js"
   ]
 }
